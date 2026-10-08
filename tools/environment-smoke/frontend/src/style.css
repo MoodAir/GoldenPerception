@@ -1,0 +1,36 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #18202b;
+  background: #f4f6f9;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 48rem;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #d7dfe8;
+  border-radius: 0.75rem;
+  background: white;
+}
+
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+[data-state="ready"] {
+  color: #177245;
+}
+
+[data-state="error"] {
+  color: #a72d35;
+}

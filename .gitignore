@@ -1,0 +1,10 @@
+node_modules/
+target/
+dist/
+*.log
+*.pid
+.env
+.env.*
+!.env.example
+.DS_Store
+.goldenperception-env/
